@@ -18,6 +18,8 @@
 		225DFAE21830E95A006EA256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAC11830E95A006EA256 /* Cocoa.framework */; };
 		225DFAEA1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAE81830E95A006EA256 /* InfoPlist.strings */; };
 		225DFAEC1830E95A006EA256 /* ActsAsBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */; };
+		225DFAF71830E9A0006EA256 /* CMBeaconAdvertismentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */; };
+		225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAF81830EA05006EA256 /* IOBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		225DFABE1830E95A006EA256 /* ActsAsBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActsAsBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225DFABE1830E95A006EA256 /* MactsAsBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MactsAsBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225DFAC11830E95A006EA256 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		225DFAC41830E95A006EA256 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		225DFAC51830E95A006EA256 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		225DFAC61830E95A006EA256 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		225DFAC91830E95A006EA256 /* ActsAsBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActsAsBeacon-Info.plist"; sourceTree = "<group>"; };
+		225DFAC91830E95A006EA256 /* MactsAsBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MactsAsBeacon-Info.plist"; sourceTree = "<group>"; };
 		225DFACB1830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DFACD1830E95A006EA256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActsAsBeacon-Prefix.pch"; sourceTree = "<group>"; };
@@ -45,11 +47,14 @@
 		225DFAD41830E95A006EA256 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
 		225DFAD71830E95A006EA256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		225DFAD91830E95A006EA256 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		225DFADF1830E95A006EA256 /* ActsAsBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActsAsBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MactsAsBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225DFAE01830E95A006EA256 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		225DFAE71830E95A006EA256 /* ActsAsBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActsAsBeaconTests-Info.plist"; sourceTree = "<group>"; };
+		225DFAE71830E95A006EA256 /* MactsAsBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MactsAsBeaconTests-Info.plist"; sourceTree = "<group>"; };
 		225DFAE91830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActsAsBeaconTests.m; sourceTree = "<group>"; };
+		225DFAF51830E9A0006EA256 /* CMBeaconAdvertismentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBeaconAdvertismentData.h; sourceTree = "<group>"; };
+		225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBeaconAdvertismentData.m; sourceTree = "<group>"; };
+		225DFAF81830EA05006EA256 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */,
 				225DFAC21830E95A006EA256 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,8 +92,8 @@
 		225DFABF1830E95A006EA256 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				225DFABE1830E95A006EA256 /* ActsAsBeacon.app */,
-				225DFADF1830E95A006EA256 /* ActsAsBeaconTests.xctest */,
+				225DFABE1830E95A006EA256 /* MactsAsBeacon.app */,
+				225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 		225DFAC01830E95A006EA256 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				225DFAF81830EA05006EA256 /* IOBluetooth.framework */,
 				225DFAC11830E95A006EA256 /* Cocoa.framework */,
 				225DFAE01830E95A006EA256 /* XCTest.framework */,
 				225DFAC31830E95A006EA256 /* Other Frameworks */,
@@ -120,6 +127,8 @@
 				225DFAD61830E95A006EA256 /* MainMenu.xib */,
 				225DFAD91830E95A006EA256 /* Images.xcassets */,
 				225DFAC81830E95A006EA256 /* Supporting Files */,
+				225DFAF51830E9A0006EA256 /* CMBeaconAdvertismentData.h */,
+				225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */,
 			);
 			path = ActsAsBeacon;
 			sourceTree = "<group>";
@@ -127,7 +136,7 @@
 		225DFAC81830E95A006EA256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				225DFAC91830E95A006EA256 /* ActsAsBeacon-Info.plist */,
+				225DFAC91830E95A006EA256 /* MactsAsBeacon-Info.plist */,
 				225DFACA1830E95A006EA256 /* InfoPlist.strings */,
 				225DFACD1830E95A006EA256 /* main.m */,
 				225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */,
@@ -148,7 +157,7 @@
 		225DFAE61830E95A006EA256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				225DFAE71830E95A006EA256 /* ActsAsBeaconTests-Info.plist */,
+				225DFAE71830E95A006EA256 /* MactsAsBeaconTests-Info.plist */,
 				225DFAE81830E95A006EA256 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		225DFABD1830E95A006EA256 /* ActsAsBeacon */ = {
+		225DFABD1830E95A006EA256 /* MactsAsBeacon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225DFAEF1830E95A006EA256 /* Build configuration list for PBXNativeTarget "ActsAsBeacon" */;
+			buildConfigurationList = 225DFAEF1830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeacon" */;
 			buildPhases = (
 				225DFABA1830E95A006EA256 /* Sources */,
 				225DFABB1830E95A006EA256 /* Frameworks */,
@@ -169,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = ActsAsBeacon;
+			name = MactsAsBeacon;
 			productName = ActsAsBeacon;
-			productReference = 225DFABE1830E95A006EA256 /* ActsAsBeacon.app */;
+			productReference = 225DFABE1830E95A006EA256 /* MactsAsBeacon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		225DFADE1830E95A006EA256 /* ActsAsBeaconTests */ = {
+		225DFADE1830E95A006EA256 /* MactsAsBeaconTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "ActsAsBeaconTests" */;
+			buildConfigurationList = 225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeaconTests" */;
 			buildPhases = (
 				225DFADB1830E95A006EA256 /* Sources */,
 				225DFADC1830E95A006EA256 /* Frameworks */,
@@ -187,9 +196,9 @@
 			dependencies = (
 				225DFAE41830E95A006EA256 /* PBXTargetDependency */,
 			);
-			name = ActsAsBeaconTests;
+			name = MactsAsBeaconTests;
 			productName = ActsAsBeaconTests;
-			productReference = 225DFADF1830E95A006EA256 /* ActsAsBeaconTests.xctest */;
+			productReference = 225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 225DFAB91830E95A006EA256 /* Build configuration list for PBXProject "ActsAsBeacon" */;
+			buildConfigurationList = 225DFAB91830E95A006EA256 /* Build configuration list for PBXProject "MactsAsBeacon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +229,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				225DFABD1830E95A006EA256 /* ActsAsBeacon */,
-				225DFADE1830E95A006EA256 /* ActsAsBeaconTests */,
+				225DFABD1830E95A006EA256 /* MactsAsBeacon */,
+				225DFADE1830E95A006EA256 /* MactsAsBeaconTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				225DFAD51830E95A006EA256 /* CMAppDelegate.m in Sources */,
+				225DFAF71830E9A0006EA256 /* CMBeaconAdvertismentData.m in Sources */,
 				225DFACE1830E95A006EA256 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +281,7 @@
 /* Begin PBXTargetDependency section */
 		225DFAE41830E95A006EA256 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 225DFABD1830E95A006EA256 /* ActsAsBeacon */;
+			target = 225DFABD1830E95A006EA256 /* MactsAsBeacon */;
 			targetProxy = 225DFAE31830E95A006EA256 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +396,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
-				INFOPLIST_FILE = "ActsAsBeacon/ActsAsBeacon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
+				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				PRODUCT_NAME = MactsAsBeacon;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
-				INFOPLIST_FILE = "ActsAsBeacon/ActsAsBeacon-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
+				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				PRODUCT_NAME = MactsAsBeacon;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -421,8 +431,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ActsAsBeaconTests/ActsAsBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
+				PRODUCT_NAME = MactsAsBeaconTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -439,8 +449,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
-				INFOPLIST_FILE = "ActsAsBeaconTests/ActsAsBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
+				PRODUCT_NAME = MactsAsBeaconTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -449,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		225DFAB91830E95A006EA256 /* Build configuration list for PBXProject "ActsAsBeacon" */ = {
+		225DFAB91830E95A006EA256 /* Build configuration list for PBXProject "MactsAsBeacon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				225DFAED1830E95A006EA256 /* Debug */,
@@ -458,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		225DFAEF1830E95A006EA256 /* Build configuration list for PBXNativeTarget "ActsAsBeacon" */ = {
+		225DFAEF1830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeacon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				225DFAF01830E95A006EA256 /* Debug */,
@@ -466,7 +476,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "ActsAsBeaconTests" */ = {
+		225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeaconTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				225DFAF31830E95A006EA256 /* Debug */,
