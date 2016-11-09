@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE92B531DD33C00008A2F6D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE92B521DD33C00008A2F6D /* CoreBluetooth.framework */; };
 		225DFAC21830E95A006EA256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAC11830E95A006EA256 /* Cocoa.framework */; };
 		225DFACC1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFACA1830E95A006EA256 /* InfoPlist.strings */; };
 		225DFACE1830E95A006EA256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFACD1830E95A006EA256 /* main.m */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE92B521DD33C00008A2F6D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		225DFABE1830E95A006EA256 /* MactsAsBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MactsAsBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		225DFAC11830E95A006EA256 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		225DFAC41830E95A006EA256 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE92B531DD33C00008A2F6D /* CoreBluetooth.framework in Frameworks */,
 				225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */,
 				225DFAC21830E95A006EA256 /* Cocoa.framework in Frameworks */,
 			);
@@ -101,6 +104,7 @@
 		225DFAC01830E95A006EA256 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AE92B521DD33C00008A2F6D /* CoreBluetooth.framework */,
 				225DFAF81830EA05006EA256 /* IOBluetooth.framework */,
 				225DFAC11830E95A006EA256 /* Cocoa.framework */,
 				225DFAE01830E95A006EA256 /* XCTest.framework */,
@@ -208,7 +212,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CM;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Charismatic Megafauna Ltd";
 				TargetAttributes = {
 					225DFADE1830E95A006EA256 = {
@@ -334,13 +338,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -371,14 +381,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -398,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeacon;
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeacon;
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,6 +449,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeaconTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -450,6 +468,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeaconTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -475,6 +494,7 @@
 				225DFAF11830E95A006EA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +503,7 @@
 				225DFAF41830E95A006EA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
