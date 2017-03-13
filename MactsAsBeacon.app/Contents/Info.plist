@@ -42,8 +42,6 @@
 	<string>10.9</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2013 Charismatic Megafauna Ltd. All rights reserved.</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

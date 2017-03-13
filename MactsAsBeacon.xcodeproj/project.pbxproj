@@ -10,17 +10,19 @@
 		1AE92B531DD33C00008A2F6D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE92B521DD33C00008A2F6D /* CoreBluetooth.framework */; };
 		225DFAC21830E95A006EA256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAC11830E95A006EA256 /* Cocoa.framework */; };
 		225DFACC1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFACA1830E95A006EA256 /* InfoPlist.strings */; };
-		225DFACE1830E95A006EA256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFACD1830E95A006EA256 /* main.m */; };
 		225DFAD21830E95A006EA256 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAD01830E95A006EA256 /* Credits.rtf */; };
-		225DFAD51830E95A006EA256 /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAD41830E95A006EA256 /* CMAppDelegate.m */; };
-		225DFAD81830E95A006EA256 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAD61830E95A006EA256 /* MainMenu.xib */; };
 		225DFADA1830E95A006EA256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAD91830E95A006EA256 /* Images.xcassets */; };
 		225DFAE11830E95A006EA256 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAE01830E95A006EA256 /* XCTest.framework */; };
 		225DFAE21830E95A006EA256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAC11830E95A006EA256 /* Cocoa.framework */; };
 		225DFAEA1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAE81830E95A006EA256 /* InfoPlist.strings */; };
 		225DFAEC1830E95A006EA256 /* ActsAsBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */; };
-		225DFAF71830E9A0006EA256 /* CMBeaconAdvertismentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */; };
 		225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAF81830EA05006EA256 /* IOBluetooth.framework */; };
+		DCDA50A81E72CC8800C78673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50A71E72CC8800C78673 /* AppDelegate.swift */; };
+		DCDA50AB1E72D02500C78673 /* CreateBeacopnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */; };
+		DCDA50AD1E72D0DB00C78673 /* IBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */; };
+		DCDA50AF1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */; };
+		DCDA50B11E72D87500C78673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDA50B01E72D87500C78673 /* Main.storyboard */; };
+		DCDA50B41E72F42B00C78673 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50B31E72F42B00C78673 /* UserDefaultsExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,21 +44,21 @@
 		225DFAC61830E95A006EA256 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		225DFAC91830E95A006EA256 /* MactsAsBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MactsAsBeacon-Info.plist"; sourceTree = "<group>"; };
 		225DFACB1830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		225DFACD1830E95A006EA256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActsAsBeacon-Prefix.pch"; sourceTree = "<group>"; };
 		225DFAD11830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		225DFAD31830E95A006EA256 /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
-		225DFAD41830E95A006EA256 /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
-		225DFAD71830E95A006EA256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		225DFAD91830E95A006EA256 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MactsAsBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225DFAE01830E95A006EA256 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		225DFAE71830E95A006EA256 /* MactsAsBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MactsAsBeaconTests-Info.plist"; sourceTree = "<group>"; };
 		225DFAE91830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActsAsBeaconTests.m; sourceTree = "<group>"; };
-		225DFAF51830E9A0006EA256 /* CMBeaconAdvertismentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBeaconAdvertismentData.h; sourceTree = "<group>"; };
-		225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBeaconAdvertismentData.m; sourceTree = "<group>"; };
 		225DFAF81830EA05006EA256 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		DCDA50A71E72CC8800C78673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBeacopnViewController.swift; sourceTree = "<group>"; };
+		DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBeacon.swift; sourceTree = "<group>"; };
+		DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBeacopnViewControllerVM.swift; sourceTree = "<group>"; };
+		DCDA50B01E72D87500C78673 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DCDA50B31E72F42B00C78673 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,13 +128,14 @@
 		225DFAC71830E95A006EA256 /* ActsAsBeacon */ = {
 			isa = PBXGroup;
 			children = (
-				225DFAD31830E95A006EA256 /* CMAppDelegate.h */,
-				225DFAD41830E95A006EA256 /* CMAppDelegate.m */,
-				225DFAD61830E95A006EA256 /* MainMenu.xib */,
+				DCDA50A71E72CC8800C78673 /* AppDelegate.swift */,
+				DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */,
+				DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */,
+				DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */,
+				DCDA50B31E72F42B00C78673 /* UserDefaultsExtension.swift */,
+				DCDA50B01E72D87500C78673 /* Main.storyboard */,
 				225DFAD91830E95A006EA256 /* Images.xcassets */,
 				225DFAC81830E95A006EA256 /* Supporting Files */,
-				225DFAF51830E9A0006EA256 /* CMBeaconAdvertismentData.h */,
-				225DFAF61830E9A0006EA256 /* CMBeaconAdvertismentData.m */,
 			);
 			path = ActsAsBeacon;
 			sourceTree = "<group>";
@@ -142,7 +145,6 @@
 			children = (
 				225DFAC91830E95A006EA256 /* MactsAsBeacon-Info.plist */,
 				225DFACA1830E95A006EA256 /* InfoPlist.strings */,
-				225DFACD1830E95A006EA256 /* main.m */,
 				225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */,
 				225DFAD01830E95A006EA256 /* Credits.rtf */,
 			);
@@ -215,6 +217,9 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Charismatic Megafauna Ltd";
 				TargetAttributes = {
+					225DFABD1830E95A006EA256 = {
+						LastSwiftMigration = 0820;
+					};
 					225DFADE1830E95A006EA256 = {
 						TestTargetID = 225DFABD1830E95A006EA256;
 					};
@@ -245,9 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				225DFACC1830E95A006EA256 /* InfoPlist.strings in Resources */,
+				DCDA50B11E72D87500C78673 /* Main.storyboard in Resources */,
 				225DFADA1830E95A006EA256 /* Images.xcassets in Resources */,
 				225DFAD21830E95A006EA256 /* Credits.rtf in Resources */,
-				225DFAD81830E95A006EA256 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225DFAD51830E95A006EA256 /* CMAppDelegate.m in Sources */,
-				225DFAF71830E9A0006EA256 /* CMBeaconAdvertismentData.m in Sources */,
-				225DFACE1830E95A006EA256 /* main.m in Sources */,
+				DCDA50A81E72CC8800C78673 /* AppDelegate.swift in Sources */,
+				DCDA50AB1E72D02500C78673 /* CreateBeacopnViewController.swift in Sources */,
+				DCDA50AD1E72D0DB00C78673 /* IBeacon.swift in Sources */,
+				DCDA50AF1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift in Sources */,
+				DCDA50B41E72F42B00C78673 /* UserDefaultsExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +312,6 @@
 				225DFAD11830E95A006EA256 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		225DFAD61830E95A006EA256 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				225DFAD71830E95A006EA256 /* Base */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		225DFAE81830E95A006EA256 /* InfoPlist.strings */ = {
@@ -363,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -400,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -409,12 +408,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeacon;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -423,12 +428,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MactsAsBeacon;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -436,6 +446,7 @@
 		225DFAF31830E95A006EA256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActsAsBeacon.app/Contents/MacOS/ActsAsBeacon";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,6 +470,7 @@
 		225DFAF41830E95A006EA256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActsAsBeacon.app/Contents/MacOS/ActsAsBeacon";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
