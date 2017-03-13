@@ -17,8 +17,9 @@
 		225DFAEA1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAE81830E95A006EA256 /* InfoPlist.strings */; };
 		225DFAEC1830E95A006EA256 /* ActsAsBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */; };
 		225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAF81830EA05006EA256 /* IOBluetooth.framework */; };
+		DCB4BB0B1E77369C006D0F3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB4BB0A1E77369C006D0F3F /* Localizable.strings */; };
 		DCDA50A81E72CC8800C78673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50A71E72CC8800C78673 /* AppDelegate.swift */; };
-		DCDA50AB1E72D02500C78673 /* CreateBeacopnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */; };
+		DCDA50AB1E72D02500C78673 /* CreateBeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AA1E72D02500C78673 /* CreateBeaconViewController.swift */; };
 		DCDA50AD1E72D0DB00C78673 /* IBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */; };
 		DCDA50AF1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */; };
 		DCDA50B11E72D87500C78673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDA50B01E72D87500C78673 /* Main.storyboard */; };
@@ -53,8 +54,9 @@
 		225DFAE91830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActsAsBeaconTests.m; sourceTree = "<group>"; };
 		225DFAF81830EA05006EA256 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		DCB4BB0A1E77369C006D0F3F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DCDA50A71E72CC8800C78673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBeacopnViewController.swift; sourceTree = "<group>"; };
+		DCDA50AA1E72D02500C78673 /* CreateBeaconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBeaconViewController.swift; sourceTree = "<group>"; };
 		DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBeacon.swift; sourceTree = "<group>"; };
 		DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBeacopnViewControllerVM.swift; sourceTree = "<group>"; };
 		DCDA50B01E72D87500C78673 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -129,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				DCDA50A71E72CC8800C78673 /* AppDelegate.swift */,
-				DCDA50AA1E72D02500C78673 /* CreateBeacopnViewController.swift */,
+				DCDA50AA1E72D02500C78673 /* CreateBeaconViewController.swift */,
 				DCDA50AE1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift */,
 				DCDA50AC1E72D0DB00C78673 /* IBeacon.swift */,
 				DCDA50B31E72F42B00C78673 /* UserDefaultsExtension.swift */,
@@ -143,6 +145,7 @@
 		225DFAC81830E95A006EA256 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCB4BB0A1E77369C006D0F3F /* Localizable.strings */,
 				225DFAC91830E95A006EA256 /* MactsAsBeacon-Info.plist */,
 				225DFACA1830E95A006EA256 /* InfoPlist.strings */,
 				225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */,
@@ -251,6 +254,7 @@
 			files = (
 				225DFACC1830E95A006EA256 /* InfoPlist.strings in Resources */,
 				DCDA50B11E72D87500C78673 /* Main.storyboard in Resources */,
+				DCB4BB0B1E77369C006D0F3F /* Localizable.strings in Resources */,
 				225DFADA1830E95A006EA256 /* Images.xcassets in Resources */,
 				225DFAD21830E95A006EA256 /* Credits.rtf in Resources */,
 			);
@@ -272,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDA50A81E72CC8800C78673 /* AppDelegate.swift in Sources */,
-				DCDA50AB1E72D02500C78673 /* CreateBeacopnViewController.swift in Sources */,
+				DCDA50AB1E72D02500C78673 /* CreateBeaconViewController.swift in Sources */,
 				DCDA50AD1E72D0DB00C78673 /* IBeacon.swift in Sources */,
 				DCDA50AF1E72D18D00C78673 /* CreateBeacopnViewControllerVM.swift in Sources */,
 				DCDA50B41E72F42B00C78673 /* UserDefaultsExtension.swift in Sources */,

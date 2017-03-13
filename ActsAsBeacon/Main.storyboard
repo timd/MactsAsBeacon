@@ -542,9 +542,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="headerLabel" destination="KSD-hk-bbt" id="Tz2-61-MCP"/>
                         <outlet property="majorTextField" destination="Jjb-OL-f0d" id="U34-X2-oDp"/>
                         <outlet property="minorTextField" destination="gIP-Nf-H1o" id="lrP-e7-w3q"/>
                         <outlet property="powerTextField" destination="AvO-ix-Qps" id="Wg7-2S-fC0"/>
+                        <outlet property="startStopButton" destination="TNa-Vp-3Vk" id="7Gh-sZ-HLK"/>
                         <outlet property="uuidTextField" destination="WfO-Xh-cYg" id="6t6-5t-B2n"/>
                     </connections>
                 </viewController>
