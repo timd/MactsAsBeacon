@@ -1,0 +1,12 @@
+/* 
+  localized.strings
+  MactsAsBeacon
+
+  Created by Philipp Weiß on 13/03/2017.
+  Copyright © 2017 Charismatic Megafauna Ltd. All rights reserved.
+*/
+
+"button_start" = "Start";
+"button_stop" = "Stop";
+"title_broadcasting" = "Broadcasting";
+"title_not_broadcasting" = "Not Broadcasting";
