@@ -12,10 +12,6 @@
 		225DFACC1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFACA1830E95A006EA256 /* InfoPlist.strings */; };
 		225DFAD21830E95A006EA256 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAD01830E95A006EA256 /* Credits.rtf */; };
 		225DFADA1830E95A006EA256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAD91830E95A006EA256 /* Images.xcassets */; };
-		225DFAE11830E95A006EA256 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAE01830E95A006EA256 /* XCTest.framework */; };
-		225DFAE21830E95A006EA256 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAC11830E95A006EA256 /* Cocoa.framework */; };
-		225DFAEA1830E95A006EA256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225DFAE81830E95A006EA256 /* InfoPlist.strings */; };
-		225DFAEC1830E95A006EA256 /* ActsAsBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */; };
 		225DFAF91830EA05006EA256 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225DFAF81830EA05006EA256 /* IOBluetooth.framework */; };
 		DCB4BB0B1E77369C006D0F3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB4BB0A1E77369C006D0F3F /* Localizable.strings */; };
 		DCDA50A81E72CC8800C78673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50A71E72CC8800C78673 /* AppDelegate.swift */; };
@@ -25,16 +21,6 @@
 		DCDA50B11E72D87500C78673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDA50B01E72D87500C78673 /* Main.storyboard */; };
 		DCDA50B41E72F42B00C78673 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDA50B31E72F42B00C78673 /* UserDefaultsExtension.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		225DFAE31830E95A006EA256 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 225DFAB61830E95A006EA256 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 225DFABD1830E95A006EA256;
-			remoteInfo = ActsAsBeacon;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1AE92B521DD33C00008A2F6D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -48,11 +34,7 @@
 		225DFACF1830E95A006EA256 /* ActsAsBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActsAsBeacon-Prefix.pch"; sourceTree = "<group>"; };
 		225DFAD11830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		225DFAD91830E95A006EA256 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MactsAsBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225DFAE01830E95A006EA256 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		225DFAE71830E95A006EA256 /* MactsAsBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MactsAsBeaconTests-Info.plist"; sourceTree = "<group>"; };
-		225DFAE91830E95A006EA256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActsAsBeaconTests.m; sourceTree = "<group>"; };
 		225DFAF81830EA05006EA256 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		DCB4BB0A1E77369C006D0F3F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DCDA50A71E72CC8800C78673 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,15 +56,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		225DFADC1830E95A006EA256 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				225DFAE21830E95A006EA256 /* Cocoa.framework in Frameworks */,
-				225DFAE11830E95A006EA256 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				225DFAC71830E95A006EA256 /* ActsAsBeacon */,
-				225DFAE51830E95A006EA256 /* ActsAsBeaconTests */,
 				225DFAC01830E95A006EA256 /* Frameworks */,
 				225DFABF1830E95A006EA256 /* Products */,
 			);
@@ -100,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				225DFABE1830E95A006EA256 /* MactsAsBeacon.app */,
-				225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,24 +125,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		225DFAE51830E95A006EA256 /* ActsAsBeaconTests */ = {
-			isa = PBXGroup;
-			children = (
-				225DFAEB1830E95A006EA256 /* ActsAsBeaconTests.m */,
-				225DFAE61830E95A006EA256 /* Supporting Files */,
-			);
-			path = ActsAsBeaconTests;
-			sourceTree = "<group>";
-		};
-		225DFAE61830E95A006EA256 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				225DFAE71830E95A006EA256 /* MactsAsBeaconTests-Info.plist */,
-				225DFAE81830E95A006EA256 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,24 +145,6 @@
 			productReference = 225DFABE1830E95A006EA256 /* MactsAsBeacon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		225DFADE1830E95A006EA256 /* MactsAsBeaconTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeaconTests" */;
-			buildPhases = (
-				225DFADB1830E95A006EA256 /* Sources */,
-				225DFADC1830E95A006EA256 /* Frameworks */,
-				225DFADD1830E95A006EA256 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				225DFAE41830E95A006EA256 /* PBXTargetDependency */,
-			);
-			name = MactsAsBeaconTests;
-			productName = ActsAsBeaconTests;
-			productReference = 225DFADF1830E95A006EA256 /* MactsAsBeaconTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,14 +152,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CM;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Charismatic Megafauna Ltd";
 				TargetAttributes = {
 					225DFABD1830E95A006EA256 = {
-						LastSwiftMigration = 0820;
-					};
-					225DFADE1830E95A006EA256 = {
-						TestTargetID = 225DFABD1830E95A006EA256;
+						DevelopmentTeam = 2L6VB82CR7;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -242,7 +176,6 @@
 			projectRoot = "";
 			targets = (
 				225DFABD1830E95A006EA256 /* MactsAsBeacon */,
-				225DFADE1830E95A006EA256 /* MactsAsBeaconTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,14 +190,6 @@
 				DCB4BB0B1E77369C006D0F3F /* Localizable.strings in Resources */,
 				225DFADA1830E95A006EA256 /* Images.xcassets in Resources */,
 				225DFAD21830E95A006EA256 /* Credits.rtf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		225DFADD1830E95A006EA256 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				225DFAEA1830E95A006EA256 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,23 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		225DFADB1830E95A006EA256 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				225DFAEC1830E95A006EA256 /* ActsAsBeaconTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		225DFAE41830E95A006EA256 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 225DFABD1830E95A006EA256 /* MactsAsBeacon */;
-			targetProxy = 225DFAE31830E95A006EA256 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		225DFACA1830E95A006EA256 /* InfoPlist.strings */ = {
@@ -318,14 +227,6 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		225DFAE81830E95A006EA256 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				225DFAE91830E95A006EA256 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -336,17 +237,24 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -369,6 +277,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 			};
 			name = Debug;
 		};
@@ -379,17 +288,24 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -405,6 +321,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 			};
 			name = Release;
 		};
@@ -413,17 +331,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L6VB82CR7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = de.duckett.MactsAsBeacon;
 				PRODUCT_NAME = MactsAsBeacon;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -433,61 +356,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L6VB82CR7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActsAsBeacon/MactsAsBeacon-Prefix.pch";
 				INFOPLIST_FILE = "ActsAsBeacon/MactsAsBeacon-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = de.duckett.MactsAsBeacon;
 				PRODUCT_NAME = MactsAsBeacon;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		225DFAF31830E95A006EA256 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActsAsBeacon.app/Contents/MacOS/ActsAsBeacon";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MactsAsBeaconTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		225DFAF41830E95A006EA256 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ActsAsBeacon.app/Contents/MacOS/ActsAsBeacon";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ActsAsBeacon/ActsAsBeacon-Prefix.pch";
-				INFOPLIST_FILE = "ActsAsBeaconTests/MactsAsBeaconTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.charismaticmegafauna.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MactsAsBeaconTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -508,15 +392,6 @@
 			buildConfigurations = (
 				225DFAF01830E95A006EA256 /* Debug */,
 				225DFAF11830E95A006EA256 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		225DFAF21830E95A006EA256 /* Build configuration list for PBXNativeTarget "MactsAsBeaconTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				225DFAF31830E95A006EA256 /* Debug */,
-				225DFAF41830E95A006EA256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

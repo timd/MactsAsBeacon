@@ -11,8 +11,6 @@ import IOBluetooth
 
 protocol CreateBeaconViewControllerVMProtocol: class {
 
-
-
     var major: String { get set }
     var power: String { get set }
     var uuid: String { get set }

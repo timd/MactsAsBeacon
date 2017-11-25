@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MactsAsBeacon</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>1CD23F9113A82CE78CBFCE030228F51ACFC8B608</string>
+				<key>dateExpires</key>
+				<string>26.11.22</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>name</key>
+			<string>MactsAsBeacon.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2L6VB82CR7</string>
+				<key>name</key>
+				<string>Tim Duckett</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
