@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
 
-        let mainVC = NSStoryboard(name: NSStoryboard.Name(rawValue: AppDelegate.storyboardName), bundle: nil).instantiateController(withIdentifier: NSStoryboard.SceneIdentifier(rawValue: CreateBeaconViewController.identifier)) as? CreateBeaconViewController
+        let mainVC = NSStoryboard(name: AppDelegate.storyboardName, bundle: nil).instantiateController(withIdentifier: CreateBeaconViewController.identifier) as? CreateBeaconViewController
 
         do {
             mainVC?.setViewModel(viewModel: CreateBeaconViewControllerVM(with: try createBeacon()))
